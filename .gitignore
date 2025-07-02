@@ -201,10 +201,6 @@ mkdocs_github_authors.yaml
 /paper.md
 
 # Ignore but keep empty folders
-data/*
-!data/README.md
-storage/*
-!storage/README.md
 
 # Ignore all YAML files globally (if required)
 
@@ -215,5 +211,5 @@ RAG/
 logs/*
 !logs/.gitkeep
 
-storage/detect/*
+storage/detect/**
 !storage/detect/.gitkeep
