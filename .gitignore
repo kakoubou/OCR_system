@@ -207,7 +207,6 @@ storage/*
 !storage/README.md
 
 # Ignore all YAML files globally (if required)
-*.yaml
 
 data/
 RAG/

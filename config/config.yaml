@@ -1,0 +1,20 @@
+resnet:
+  ckpt: './logs/resnet_train_model.pth'
+  target_label: 1
+  test_dataset_path: "./data"
+  num_classes: 2
+
+yolo:
+  imgsz: 640
+  predict_model: "./logs/yolo_train_model.pt"
+  predict_data: "./data/test_images"
+  predict_save: True
+  device: cpu
+  save: True
+  output_csv: "./storage/detect/results.csv"
+  output_path: "./storage/detect"
+
+OCR:
+  input_dir: "./storage/detect/crops"
+  out_txt: "./storage/rag/data/ocr_result.txt"
+
