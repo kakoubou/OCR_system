@@ -70,7 +70,7 @@
 以下のコマンドをターミナルに入力すると、[streamlit][streamlit]で構築されたUI画面が起動します。  
 
 ```python
-streamlist run app.py
+streamlit run app.py
 ```
 
 実行後、ブラウザが自動的にローカルホストのポート `localhost:8501` を開きます。
