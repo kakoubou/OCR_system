@@ -85,6 +85,7 @@ def main():
                     st.warning(f"⚠️ 処理済み画像が見つかりませんでした: {output_path}")
 
             else:
+                st.image(image)
                 st.markdown(
                     '<p style="font-size:30px; font-weight:bold; color:red;">⚠️ 入力画像はレシートではありません</p>',
                     unsafe_allow_html=True
