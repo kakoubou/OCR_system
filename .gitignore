@@ -208,8 +208,8 @@ data/
 RAG/
 310venv/
 
-logs/*
-!logs/.gitkeep
+models/*
+!models/.gitkeep
 
 storage/detect/**
 !storage/detect/.gitkeep
